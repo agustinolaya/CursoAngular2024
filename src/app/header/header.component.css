@@ -1,0 +1,31 @@
+.header{
+    width: 100%;
+    background-color: rgb(163, 146, 97);
+    border-bottom: solid 2px #000000;
+}
+
+.menu {
+    /* quitar margenes de las listas */
+    margin: 0px;
+    padding: 0px;
+    /* acomodar la lista de manera horizontal */
+    display: flex;
+    /* quitar el puntito a la lista */
+    list-style: none;
+    /* centrar el contenido y los items */
+    align-items: center;
+    align-content: center;
+    /* Separar los links con justificado */
+    justify-content: space-between;
+}
+
+.logo {
+    /* Ajustar el tamaño de la imagen con respecto al tamaño de la fuente, utilizando rem */
+    height: 2rem;
+}
+
+.menu li{
+    font-weight: 600;
+    padding: 5px;
+    text-align: center;
+}
